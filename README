@@ -52,10 +52,10 @@ accepts the base-58 encoded private key.  Vanitygen has been tested to
 work with that version of bitcoin.
 
 To generate for POSQ, use it like this: 
-./vanitygen Qtest -L
+./vanitygen Qtest -L -i
 
 To generate for GLT use it like this:
-./vanitygen Gtest -G
+./vanitygen Gtest -G -i
 
 with -t 4 you would use 4 threads to generate addresses
 with -i you will not search case sensitive
