@@ -57,7 +57,11 @@ To generate for POSQ, use it like this:
 To generate for GLT use it like this:
 ./vanitygen Gtest -G -i
 
+To generate for GLT using Docker:
+docker run -it cryptoandcoffee/vanitygen Gtest -G -i
+
 with -t 4 you would use 4 threads to generate addresses
 with -i you will not search case sensitive
 
 ./vanitygen QTest -i -L -t 2      would search for a POSQ address like QtESt with 2 threads.
+
